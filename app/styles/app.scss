@@ -1,0 +1,22 @@
+@import "ember-bootstrap/bootstrap";
+@import "components/coming-soon";
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body > .ember-view
+{
+  display:        flex;
+  min-height:     100vh;
+  flex-direction: column;
+  width: 100%;
+}
+
+main
+{
+  flex: 1 0 auto;
+  position: relative;
+}

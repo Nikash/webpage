@@ -1,0 +1,72 @@
+.fill {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.cs-name {
+  padding-left: 50px;
+  padding-top: 50px;
+  font-family: "Brush Script MT", cursive;;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 26.4px;
+}
+
+.cs-color {
+  color: #f4dec0;
+}
+
+.cs-bg {
+  background-image: url("cs-bg.jpg");
+}
+
+.coming-soon-box {
+  opacity: 0.7;
+  color: #696969;
+  font-size: large;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.cs-vertical-center {
+  display: flex;
+  align-items: center;
+  height: 80%;
+}
+
+.well {
+  background-color: #404040;
+  border: none;
+}
+
+.insetshadow {
+  color: #f4dec0;
+  background-color: #2d2d2d;
+  letter-spacing: .1em;
+  text-shadow: 
+    -1px -1px 1px #c9b496, 
+    2px 2px 1px #363636;
+}
+
+.social-icon {
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.right-column {
+    margin-right: initial;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.social-connections {
+  padding-left: 50px;
+  float: left;
+}
+
+.copyright {
+  text-align: right;
+}
