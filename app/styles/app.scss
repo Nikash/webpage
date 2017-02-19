@@ -1,22 +1,47 @@
 @import "ember-bootstrap/bootstrap";
 @import "components/coming-soon";
+@import "components/site-banner";
+@import "components/site-about";
 
 html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-body > .ember-view
-{
-  display:        flex;
-  min-height:     100vh;
-  flex-direction: column;
+  height: 100%;
   width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-size: 1.11vw;
 }
 
-main
-{
-  flex: 1 0 auto;
-  position: relative;
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  // font-family: 'Montserrat', sans-serif;
 }
+
+/*body > .ember-view
+{
+  //display: flex;
+  //min-height: 100vh;
+  //flex-direction: column;
+  //width: 100%;
+}*/
+
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+   margin-bottom: 0px;
+}
+
+.navbar li { color: #000 }
+
+.font-white {
+  color: #fff;
+}
+
+.mouse-pointer {
+  cursor: pointer;
+}
+

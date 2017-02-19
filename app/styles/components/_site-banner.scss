@@ -1,0 +1,57 @@
+.banner {
+  position: relative;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 30% 50% 30% 50%;
+  background-color: black;
+}
+
+.banner h1 {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  left: 0;
+  width: 60%;
+  margin: 0 auto;
+  padding: 4rem 0 5.5rem 0;
+  font-size: 4.68rem;
+  letter-spacing: 0.19rem;
+  font-weight: 700;
+  color: #FFF;
+  background-color: rgba(0, 0, 0, 0.22);
+  border: 0.3125rem solid #FFF;
+}
+
+.banner h2 {
+  position: absolute;
+  top: 33%;
+  left: 0;
+  right: 0;
+  width: 35%;
+  margin: 0 auto;
+  padding: 1.56rem 0;
+  font-size: 1.56rem;
+  letter-spacing: 0.125rem;
+  font-weight: 700;
+  color: #000;
+  background-color: #FFF;
+}
+
+.nav {
+  position: absolute;
+  top: 55%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding-left: 1.56rem;
+  width: 60%;
+}
+
+.nav-text {
+  font-size: 1.5rem;
+  //padding-bottom: 0.5rem;
+}
