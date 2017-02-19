@@ -4,7 +4,7 @@ export default Ember.Component.extend({
   navs: null,
   init() {
     this._super(...arguments);
-    this.navs = [
+    this.set('navs', [
       {
         icon: 'user',
         text: 'About'
@@ -25,6 +25,6 @@ export default Ember.Component.extend({
         icon: 'address-card',
         text: 'Contact'
       }
-    ];
+    ]);
   }
 });

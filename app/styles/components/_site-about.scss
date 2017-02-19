@@ -1,4 +1,87 @@
 .about {
-  padding: 1000px 0;
-  background-color: red;
+  padding-top: 40rem; 
+  //background-color: red;
+}
+
+.about h1 {
+  font-size: 4rem;
+  letter-spacing: 0.13rem;
+  font-weight: 500;
+  padding-bottom: 1.5rem;
+}
+
+.about-right {
+  float: left;
+  padding: 0;
+  background: url(images/about-bg.jpg) no-repeat 0px 0px;
+  min-height: 30.25rem;
+  background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+}
+
+.about-left {
+  float: right;
+  min-height: 30.25rem;
+  padding: 4rem 0 3rem 0;
+  background: #f4f4f4;
+}
+
+.about-left-carousel {
+  h2 {
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+    padding: 2rem 4rem 3rem 4rem;
+    line-height: 1.75rem;
+    text-align: justify;
+  }
+
+  table {
+    margin: 2rem auto 0 auto;
+
+    td {
+      padding-right: 2rem;
+      padding-bottom: 1.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .about-right {
+    float: none;
+    min-height: 70rem;
+  }
+
+  .about-left {
+    float: none;
+    padding: 4.5em 0 4.7em 0;
+  }
+
+  .about-left-carousel {
+    h2 {
+      font-size: 3rem;
+    }
+
+    p {
+      font-size: 2rem;
+      line-height: 2.5rem;
+      padding: 3rem 5rem 0rem 5rem;
+    }
+
+    table {
+      font-size: 2rem;
+      margin: 4rem auto 0 auto;
+
+      td {
+        padding-right: 4rem;
+        padding-bottom: 1.5rem;
+      }
+    }
+  }
 }

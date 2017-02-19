@@ -13,12 +13,12 @@ export default Ember.Component.extend({
     this.set('mouseIn', false);
   },
   
-  click() {
-    let hash = "#" + this.get('text');
-    Ember.$(document.body).animate({
-        'scrollTop': Ember.$(hash).offset().top
-    }, 2000);
-  },
+  // click() {
+  //   let hash = "#" + this.get('text').toLowerCase();
+  //   Ember.$(document.body).animate({
+  //       'scrollTop': Ember.$(hash).offset().top
+  //   }, 2000);
+  // },
   
   actions: {
 
