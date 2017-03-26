@@ -45,3 +45,32 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
 }
 
+.section-75 {
+  flex: 0.75;
+}
+
+.section-100 {
+  flex: 1;
+}
+
+.section-200 {
+  flex: 2;
+}
+
+.section-100 h1, .section-200 h1 {
+  font-size: 4rem;
+  letter-spacing: 0.13rem;
+  font-weight: 500;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  height: 600vh;
+}
+
+.section-100 > .ember-view, .section-200 > ember-view {
+  height: 100%
+}

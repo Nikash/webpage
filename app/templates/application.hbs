@@ -3,9 +3,30 @@
 </header>
 
 <main>
-  {{site-banner}}
-  {{site-about}}
-  {{outlet}}
+  <div class="flex-container">
+    <div class="section-75">
+      {{site-banner}}
+    </div>
+    <div class="section-100">
+      {{site-about}}
+    </div>
+    <div class="section-200">
+      {{!-- work --}}
+      {{section-skills}}
+    </div>
+    <div class="section-100">
+      {{!-- education --}}
+      {{section-skills}}
+    </div>
+    <div class="section-100">
+      {{!-- skills --}}
+      {{section-skills}}
+    </div>
+    <div class="section-100">
+      {{!-- contact --}}
+      {{section-skills}}
+    </div>
+  </div>
 </main>
 
 <footer>

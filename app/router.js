@@ -7,6 +7,7 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+ // @resource 'index', path: '/', queryParams: ['anchor'];
 });
 
 export default Router;
