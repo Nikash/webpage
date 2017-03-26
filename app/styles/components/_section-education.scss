@@ -1,0 +1,62 @@
+.education-right {
+  float: left;
+  padding: 1rem 3rem;
+  background: #f4f4f4;
+  border-right: 5px solid #607d8b;
+}
+
+.education-left {
+  float: right;
+  padding: 1rem 3rem;
+  background: #f4f4f4;
+}
+
+.education-left h2, .education-right h2 {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  color: #111;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+.education-year {
+  float: left;
+  width: 40%;
+}
+
+.education-year h4 {
+  font-size: 1rem;
+  color: #333;
+  letter-spacing: 2px;
+}
+
+.education-year h6 {
+  padding: 1rem;
+  font-style: italic;
+  font-size: 0.75rem;
+}
+
+.education-info {
+  float: right;
+  width: 59%;
+}
+
+.education-info h4 {
+  text-align:left;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #333;
+  letter-spacing: 2px;
+}
+
+.education-info p {
+  color: #777;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.education.two {
+  border-top: 1px solid #ddd;
+  padding: 1rem 0;
+}
