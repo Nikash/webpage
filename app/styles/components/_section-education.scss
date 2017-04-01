@@ -2,22 +2,36 @@
   float: left;
   padding: 1rem 3rem;
   background: #f4f4f4;
-  border-right: 5px solid #607d8b;
 }
 
 .education-left {
   float: right;
   padding: 1rem 3rem;
-  background: #f4f4f4;
+  background: linear-gradient(rgba(0.6, 0.6, 0.6, 0.6), rgba(0.6, 0.6, 0.6, 0.6)),
+              url(images/edu-bg.jpg) no-repeat 0px 0px;
+  background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  background-repeat:no-repeat;
+  background-position:center;
 }
 
 .education-left h2, .education-right h2 {
   padding-top: 2rem;
   padding-bottom: 3rem;
   text-align: center;
-  color: #111;
   font-size: 2.5rem;
   letter-spacing: 2px;
+}
+
+.education-right h2 {
+  color: #111;
+}
+
+.education-left h2 {
+  color: #cacaca;
 }
 
 .education-year {
@@ -27,8 +41,15 @@
 
 .education-year h4 {
   font-size: 1rem;
-  color: #333;
   letter-spacing: 2px;
+}
+
+.education-right .education-year h4 {
+  color: #333;
+}
+
+.education-left .education-year h4 {
+  color: #c7c7c7;
 }
 
 .education-year h6 {
@@ -46,8 +67,15 @@
   text-align:left;
   font-size: 1rem;
   text-transform: uppercase;
-  color: #333;
   letter-spacing: 2px;
+}
+
+.education-right .education-info h4 {
+  color: #333;
+}
+
+.education-left .education-info h4 {
+  color: #c7c7c7;
 }
 
 .education-info p {

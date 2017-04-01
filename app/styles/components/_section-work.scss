@@ -48,8 +48,12 @@
   padding: 10px 30px;
 }
 
+.force-large-div {
+  min-height: 310px !important;
+}
+
 .work-right.work-even-right {
-  min-height: 185px;
+  min-height: 200px;
   float: right;
 }
 
