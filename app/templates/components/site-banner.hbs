@@ -1,10 +1,12 @@
-<div id="about" class="banner">
+<div id="top" class="banner">
   <h1>Nikash Narendra</h1>
   <h2> - <span>Full Stack Developer</span> - </h2>
 
-  <div class="nav">
-    {{#each navs as |nav|}}
-      {{nav-icon icon=nav.icon text=nav.text}}
-    {{/each}}
+  <div class="centered-div">
+    <div class="nav">
+      {{#each navs as |nav|}}
+        {{nav-icon icon=nav.icon text=nav.text anchorLocation=nav.anchor}}
+      {{/each}}
+    </div>
   </div>
 </div>

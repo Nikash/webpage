@@ -3,28 +3,9 @@
 </header>
 
 <main>
-  <div class="flex-container">
-    <div class="section-75">
-      {{site-banner}}
-    </div>
-    <div class="section-100">
-      {{site-about}}
-    </div>
-    <div class="section-100">
-      {{section-work}}
-    </div>
-    <div class="section-100">
-      {{section-education}}
-    </div>
-    <div class="section-100">
-      {{section-skills}}
-    </div>
-    <div class="section-100">
-      {{section-contact}}
-    </div>
-  </div>
+  {{outlet}}
 </main>
 
-<footer>
-  This is a footer
+<footer class="footer navbar-fixed-bottom">
+  {{site-footer}}
 </footer>

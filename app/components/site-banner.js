@@ -7,24 +7,28 @@ export default Ember.Component.extend({
     this.set('navs', [
       {
         icon: 'user',
-        text: 'About'
+        text: 'About',
+        anchor: '#about'
       },
       {
         icon: 'briefcase',
-        text: 'Work'
+        text: 'Work',
+        anchor: '#work'
       },
       {
         icon: 'graduation-cap',
-        text: 'Education'
-      },
-      {
-        icon: 'laptop',
-        text: 'Skills'
-      },
-      {
-        icon: 'address-card',
-        text: 'Contact'
-      }
+        text: 'Education',
+        anchor: '#education'
+      }//,
+      // {
+      //   icon: 'laptop',
+      //   text: 'Skills'
+      // },
+      // {
+      //   icon: 'address-card',
+      //   text: 'Contact',
+      //   anchor: '#contact'
+      // }
     ]);
   }
 });

@@ -3,10 +3,7 @@
 }
 
 .about-right {
-  float: left;
-  padding: 0;
   background: url(images/about-bg.jpg) no-repeat 0px 0px;
-  min-height: 30.25rem;
   background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -15,11 +12,11 @@
 }
 
 .about-left {
-  float: right;
-  min-height: 30.25rem;
   padding: 4rem 0 3rem 0;
   background: #f4f4f4;
 }
+
+.slick-slide, .slick-slide *{ outline: none !important; }
 
 .about-left-carousel {
   h2 {
@@ -29,7 +26,7 @@
 
   p {
     font-size: 1rem;
-    padding: 2rem 4rem 3rem 4rem;
+    padding: 0 2rem 0 2rem;
     line-height: 1.75rem;
     text-align: justify;
   }
@@ -42,6 +39,25 @@
       padding-bottom: 1.5rem;
     }
   }
+}
+
+@media screen and (min-width: 1000px) {
+  .about-flex-parent {
+    display: flex;
+  }
+
+  .about-right, .about-left {
+    flex: 1;
+  }
+
+  .about-left {
+    order: 1;
+  }
+
+  .about-right {
+    order: 2;
+  }
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -58,12 +74,13 @@
   .about-left-carousel {
     h2 {
       font-size: 3rem;
+      padding-bottom: 2rem;
     }
 
     p {
       font-size: 2rem;
       line-height: 2.5rem;
-      padding: 3rem 5rem 0rem 5rem;
+      padding: 0 4rem 0 4rem;
     }
 
     table {

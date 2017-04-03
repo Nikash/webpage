@@ -1,1 +1,28 @@
 {{!-- {{coming-soon}} --}}
+
+<div class="flex-container">
+  <div class="section">
+    {{site-banner}}
+  </div>
+  <div class="section">
+    {{site-about}}
+  </div>
+  <div class="section">
+    {{section-work}}
+  </div>
+  <div class="section">
+    {{section-education}}
+  </div>
+  {{!-- <div class="section">
+    {{section-skills}}
+  </div> 
+  <div class="section">
+    {{section-contact}}
+  </div> --}}
+</div>
+
+{{#link-to 'index' (query-params anchor='#top')}}
+  <span class="scrollToTop">
+    {{fa-icon 'arrow-circle-up'}}
+  </span>
+{{/link-to}}

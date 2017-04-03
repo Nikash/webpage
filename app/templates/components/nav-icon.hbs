@@ -1,11 +1,15 @@
-{{#if mouseIn}}
-  <span class="fa-stack fa-5x">
-    <i class="fa fa-square-o fa-stack-2x"></i>
-    <i class="fa fa-stack-1x fa-inverse nav-text">{{text}}</i>
+{{#link-to 'index' (query-params anchor=anchorLocation)}}
+  <span class="color-grey">
+    {{#if mouseIn}}
+      <span class="fa-stack fa-5x">
+        <i class="fa fa-square-o fa-stack-2x"></i>
+        <i class="fa fa-stack-1x fa-inverse nav-text">{{text}}</i>
+      </span>
+    {{else}}
+      {{#fa-stack size=5 as |s|}}
+        {{s.stack-2x "square-o"}}
+        <span class="font-white">{{s.stack-1x icon}}</span>
+      {{/fa-stack}}
+    {{/if}}
   </span>
-{{else}}
-  {{#fa-stack size=5 as |s|}}
-    {{s.stack-2x "square-o"}}
-    <span class="font-white">{{s.stack-1x icon}}</span>
-  {{/fa-stack}}
-{{/if}}
+{{/link-to}}
